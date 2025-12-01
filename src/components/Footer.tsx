@@ -104,14 +104,12 @@ const Footer: React.FC = () => {
                         <a href="#" className="hover:text-blue-600">Uro flow</a>
                     </div>
                     
-                    {/* Add more links as needed */}
                 </div>
             </div>
             </div>
 
             <div className="max-w-7xl mx-auto pt-8 border-t border-gray-200 mt-5">
                 <div className="flex flex-col items-center text-center">
-                    {/* Disclaimer Text */}
                     <p className="text-gray-500 mb-2">
                         These statements have not been evaluated by the Food and Drug Administration.
                     </p>
@@ -119,12 +117,10 @@ const Footer: React.FC = () => {
                         These products are not intended to diagnose, treat, cure or prevent any disease. Individual results may vary.
                     </p>
 
-                    {/* Payment Icons */}
                     <div className="mb-8">
                         <img src={payment} alt="Payment Methods" className="h-8 object-contain" />
                     </div>
 
-                    {/* Bottom Row: Copyright & Links */}
                     <div className="w-full flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
                         <div className="mb-4 md:mb-0 font-medium">
                             © 2025, Health Desk Clinic. All Rights Reserved.

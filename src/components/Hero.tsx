@@ -7,7 +7,6 @@ const Hero: React.FC = () => {
     <div className="bg-[#F8F9FA] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center pt-12 md:pt-20 pb-12">
         
-        {/* Text Content */}
         <div className="w-full md:w-1/2 mb-10 md:mb-0 z-10">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight mb-6">
             Health Desk Clinic:<br />
@@ -21,9 +20,7 @@ const Hero: React.FC = () => {
           </Button>
         </div>
 
-        {/* Hero Image */}
         <div className="w-full md:w-1/2 relative flex justify-center md:justify-end">
-          {/* Background Blob decoration could go here */}
           <img 
             src={doctorImage}
             alt="Doctor" 

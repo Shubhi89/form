@@ -12,7 +12,16 @@ import {
   FEATURES_DATA,
   TRUST_BADGES,
 } from "./data/constant";
-import { Heart, Activity, Leaf, ShieldCheck, Linkedin, Facebook, Twitter, Send} from "lucide-react";
+import {
+  Heart,
+  Activity,
+  Leaf,
+  ShieldCheck,
+  Linkedin,
+  Facebook,
+  Twitter,
+  Send,
+} from "lucide-react";
 import brandbg from "./assets/brandbg.jpg";
 import charitybg from "./assets/charitybg.jpg";
 import america from "./assets/american.png";
@@ -21,17 +30,14 @@ import diabetes from "./assets/diabetes.png";
 import tinnitus from "./assets/tinnitus.png";
 import prostate from "./assets/prostate.png";
 import Button from "./components/Button";
-import footer from './assets/footer.png';
+import footer from "./assets/footer.png";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900">
       <Navbar />
-
-      {/* --- NEW SECTIONS --- */}
       <Hero />
       <NutritionCategories />
-      {/* -------------------- */}
 
       {/* --- Best Sellers Section --- */}
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 border-t border-gray-100 whitespace-nowrap">
@@ -66,10 +72,7 @@ export default function App() {
         className="relative py-16 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${brandbg})` }}
       >
-        {/* Optional: Add an overlay so the text pops */}
         <div className="absolute inset-0"></div>
-
-        {/* Content (add 'relative' so it sits on top of the overlay) */}
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl font-bold mb-2">
             A Brand That You Can Trust
@@ -83,7 +86,11 @@ export default function App() {
             {TRUST_BADGES.map((badge, idx) => (
               <div key={idx} className="flex flex-col items-center gap-1">
                 <div className="text-blue-500">
-                  <img src={badge.image} alt={badge.label} className="w-16 h-16" />
+                  <img
+                    src={badge.image}
+                    alt={badge.label}
+                    className="w-16 h-16"
+                  />
                 </div>
 
                 <span className="text-blue-500 font-medium text-sm">
@@ -103,7 +110,10 @@ export default function App() {
             The Future Of Smart Health
           </h3>
           <p className="text-black max-w-3xl mx-auto">
-            At Health Care Desk, we are committed to producing supplements that harness the power of all-natural superfoods. Our products help support the body's natural processes, improving our customers' quality of life.
+            At Health Care Desk, we are committed to producing supplements that
+            harness the power of all-natural superfoods. Our products help
+            support the body's natural processes, improving our customers'
+            quality of life.
           </p>
         </div>
 
@@ -113,8 +123,10 @@ export default function App() {
       </section>
 
       {/* --- Charity Section --- */}
-      <section className="relative py-16 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${charitybg})` }}>
+      <section
+        className="relative py-16 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${charitybg})` }}
+      >
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-3xl md:text-3xl font-bold mb-1 text-center text-white">
             Our Charitable Initiatives
@@ -123,15 +135,16 @@ export default function App() {
             Health Care Desk Gives Back
           </h3>
           <p className="mb-14 max-w-2xl mx-auto text-blue-50 text-center">
-            At Health Care Desk, a portion of our profits are committed to supporting charities and global health research initiatives.
+            At Health Care Desk, a portion of our profits are committed to
+            supporting charities and global health research initiatives.
           </p>
 
           <div className="flex flex-wrap justify-center items-center gap-8 opacity-80 grayscale hover:grayscale-0 transition-all duration-500">
-            <img src={prostate}/>
-            <img src={tinnitus}/>
-            <img src={pain}/>
-            <img src={diabetes}/>
-            <img src={america}/>
+            <img src={prostate} />
+            <img src={tinnitus} />
+            <img src={pain} />
+            <img src={diabetes} />
+            <img src={america} />
           </div>
         </div>
       </section>
@@ -147,16 +160,30 @@ export default function App() {
       </section>
 
       <div className="flex flex-col items-center justify-center pb-12">
-        <img src={footer} alt="Health Desk Footer Logo" className='h-42 w-auto object-contain'/>
-        <Button variant="outline" className='rounded-none px-10 h-10'>Follow Us</Button>
+        <img
+          src={footer}
+          alt="Health Desk Footer Logo"
+          className="h-42 w-auto object-contain"
+        />
+        <Button variant="outline" className="rounded-none px-10 h-10">
+          Follow Us
+        </Button>
         <div className="max-w-4xl mx-auto text-center px-4 mb-16">
-                <div className="flex justify-center gap-4 mt-10">
-                    <Button variant="primary" className="rounded-full !px-3 !py-3"><Facebook size={20}/></Button>
-                    <Button variant="primary" className="rounded-full !px-3 !py-3"><Twitter size={20}/></Button>
-                    <Button variant="primary" className="rounded-full !px-3 !py-3"><Send size={20}/></Button>
-                    <Button variant="primary" className="rounded-full !px-3 !py-3"><Linkedin size={20}/></Button>
-                </div>
-                </div>
+          <div className="flex justify-center gap-4 mt-10">
+            <Button variant="primary" className="rounded-full !px-3 !py-3">
+              <Facebook size={20} />
+            </Button>
+            <Button variant="primary" className="rounded-full !px-3 !py-3">
+              <Twitter size={20} />
+            </Button>
+            <Button variant="primary" className="rounded-full !px-3 !py-3">
+              <Send size={20} />
+            </Button>
+            <Button variant="primary" className="rounded-full !px-3 !py-3">
+              <Linkedin size={20} />
+            </Button>
+          </div>
+        </div>
       </div>
 
       <Footer />
