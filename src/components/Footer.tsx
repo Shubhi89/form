@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Activity, Facebook, Twitter, Linkedin, Send, Heart, Leaf, ShieldCheck } from 'lucide-react';
 import Button from '../components/Button';
 import footer from '../assets/footer.png';
 import payment from '../assets/payment.png';

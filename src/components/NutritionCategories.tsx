@@ -16,7 +16,7 @@ const NutritionCategories: React.FC = () => {
                 <category.icon size={32} />
               </div>
               <h4 className="font-bold text-lg text-gray-900 mb-2">{category.title}</h4>
-              <p className="text-xs text-gray-500 mb-6 flex-grow leading-relaxed">
+              <p className="text-xs text-gray-500 mb-6 grow leading-relaxed">
                 {category.description}
               </p>
               <Button className="w-full bg-[linear-gradient(96.14deg,#3A8EF6_-10.84%,#6F3AFA_196.74%)]  hover:bg-blue-700 text-sm">

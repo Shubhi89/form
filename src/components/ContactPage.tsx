@@ -1,4 +1,3 @@
-import React from 'react'
 import Button from './Button'
 import footer from '../assets/footer.png'
 import { Facebook, Twitter, Send, Linkedin } from 'lucide-react'
@@ -17,16 +16,16 @@ const ContactPage = () => {
         </Button>
         <div className="max-w-4xl mx-auto text-center px-4 mb-16">
           <div className="flex justify-center gap-4 mt-10">
-            <Button variant="primary" className="rounded-full !px-3 !py-3">
+            <Button variant="primary" className="rounded-full px-3! py-3!">
               <Facebook size={20} />
             </Button>
-            <Button variant="primary" className="rounded-full !px-3 !py-3">
+            <Button variant="primary" className="rounded-full px-3! py-3!">
               <Twitter size={20} />
             </Button>
-            <Button variant="primary" className="rounded-full !px-3 !py-3">
+            <Button variant="primary" className="rounded-full px-3! py-3!">
               <Send size={20} />
             </Button>
-            <Button variant="primary" className="rounded-full !px-3 !py-3">
+            <Button variant="primary" className="rounded-full px-3! py-3!">
               <Linkedin size={20} />
             </Button>
           </div>

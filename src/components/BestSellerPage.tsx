@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionTitle from './SectionTitle'
 import { PRODUCTS_DATA } from '../data/constant'
 import ProductCard from './ProductCard'

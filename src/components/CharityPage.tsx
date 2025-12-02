@@ -1,4 +1,3 @@
-import React from 'react'
 import charitybg from '../assets/charitybg.jpg'
 import prostate from '../assets/prostate.png'
 import tinnitus from '../assets/tinnitus.png'

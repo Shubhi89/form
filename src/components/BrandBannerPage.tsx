@@ -1,4 +1,3 @@
-import React from 'react'
 import { TRUST_BADGES } from '../data/constant'
 import brandbg from '../assets/brandbg.jpg'
 

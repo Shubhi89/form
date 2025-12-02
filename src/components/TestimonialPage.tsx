@@ -1,4 +1,3 @@
-import React from 'react'
 import SectionTitle from './SectionTitle'
 import { TESTIMONIALS_DATA } from '../data/constant'
 import TestimonialCard from './TestimonialCard'

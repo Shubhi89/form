@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Activity, Menu, X } from 'lucide-react';
+import {  Menu, X } from 'lucide-react';
 import Button from '../components/Button';
 import logo from '../assets/logo.png';
 import contactImg from '../assets/contact.png'

@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
           <p className="text-lg mb-8 max-w-lg leading-relaxed text-black">
             Health Care Desk is the premier choice for those seeking wellness through wholesome, superfood-enriched formulas that actually work. Our all-natural, organic health supplements are designed to give your body what it needs to thrive!
           </p>
-          <Button className="!px-10 !py-4 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+          <Button className="px-10! py-4! text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1">
             Shop Now
           </Button>
         </div>
