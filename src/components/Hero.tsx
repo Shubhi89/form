@@ -24,7 +24,8 @@ const Hero: React.FC = () => {
           <img 
             src={doctorImage}
             alt="Doctor" 
-            className="relative z-10 max-h-[500px] object-contain drop-shadow-xl"
+            // FIX: Added max-w-full to prevent overflow on mobile
+            className="relative z-10 max-h-[500px] max-w-full object-containHW drop-shadow-xl"
           />
         </div>
       </div>
