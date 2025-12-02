@@ -2,7 +2,7 @@ import type { Product, Testimonial, FeatureSectionData, TrustBadge , NutritionCa
 import { Activity, Scale , Zap , Sparkles, User } from 'lucide-react';
 import dentpure from '../assets/dentPure.png';
 import truefem from '../assets/trueFem.png';
-import vitarenew from '../assets/vitaRenew.png';
+import vitarenew from '../assets/vitarenew.png';
 import prostazen from '../assets/postazen.png';
 import nervefreedom from '../assets/nervefreedom.png';
 import Leaf from '../assets/first.png'
