@@ -7,6 +7,7 @@ import CharityPage from "./components/CharityPage";
 import TestimonialPage from "./components/TestimonialPage";
 import BestSellerPage from "./components/BestSellerPage";
 import FeaturesPage from "./components/FeaturesPage";
+import ContactPage from "./components/ContactPage";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
       <BestSellerPage />
       <CharityPage/>
       <TestimonialPage />
+      <ContactPage/>
       <Footer />
     </div>
   );
